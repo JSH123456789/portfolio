@@ -1,0 +1,139 @@
+<link rel="stylesheet">
+
+<link href="css/main.css" rel="stylesheet">
+
+8번 링크 밑에 적용
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+ integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" 
+ crossorigin="anonymous"
+ referrerpolicy="no-referrer"></script>
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" 
+ integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"></script>
+
+ 11번에
+ <script>
+     // 스크립트 주석 자바스크립트, 제이쿼리
+     $(function() {
+        //스크립트 코드 작성
+        //모션 그랙픽 탭메뉴 작성
+        //메뉴를 클릭하면 클래스명 on이 붙고 떨어지도록 작성
+        $('.youtube_menu li').click(function(){
+            $('.youtube_menu li').removeClass('on')
+            $(this).addClass('on');
+
+            $('.menu_cont').removeClass('on');
+            $('.menu_cont').eq($(this).index()).addClass('on');
+
+        });
+
+        //a태그 기능 방지
+        $('.youtube_menu li a').click(function(e){
+            e.preventDefault();
+        });
+
+         });//jquery end
+ </script>
+
+170번
+.youtube_wrap .youtube_cont .menu)cont (복사)
+177번에 붙여넣기 + .youtube_wrap .youtube_cont .menu)cont + on
+display: flex;
+
+128번
+<div class"menu_cont">
+    주석 </div><!-- .menu_cont 1 게임 -->
+
+<div class"menu_cont">
+    주석 </div><!-- .menu_cont 2 홍보영상 -->
+
+<div class"menu_cont">
+    주석 </div><!-- .menu_cont 3 인포그래픽 -->
+
+<div class"menu_cont">
+    주석 </div><!-- .menu_cont 4 뮤비티저 -->
+
+<div class"menu_cont">
+    주석 </div><!-- .menu_cont 3 영화티저 -->
+
+    129번
+    <div class="menu_cont on"> 
+
+ 564 제일 하단 body 위
+ <section class="g_design">
+    <h3>2D 디자인</h3>
+    <em>클릭하시면 큰 이미지를 보실 수 있습니다.</em>
+    <div>
+        <a href="images.main_img01.png" data-fancybox="images">
+            <figure>
+                <img src="images/main_img01.png" alt="" />
+            </figure>
+            <ul>
+                <li>캐릭터디자인</li>
+                <li>목적, 제목, 프로그램</li>
+            </ul>
+        </a>   
+    </div>
+    <div>
+        <a href="images.main_img01.png" data-fancybox="images">
+            <figure>
+                <img src="images/main_img01.png" alt="" />
+            </figure>
+            <ul>
+                <li>캐릭터디자인</li>
+                <li>목적, 제목, 프로그램</li>
+            </ul>
+        </a>   
+    </div>
+    <div>
+        <a href="images.main_img01.png" data-fancybox="images">
+            <figure>
+                <img src="images/main_img01.png" alt="" />
+            </figure>
+            <ul>
+                <li>캐릭터디자인</li>
+                <li>목적, 제목, 프로그램</li>
+            </ul>
+        </a>   
+    </div>
+    <div>
+        <a href="images.main_img01.png" data-fancybox="images">
+            <figure>
+                <img src="images/main_img01.png" alt="" />
+            </figure>
+            <ul>
+                <li>캐릭터디자인</li>
+                <li>목적, 제목, 프로그램</li>
+            </ul>
+        </a>   
+    </div>
+    <div>
+        <a href="images.main_img01.png" data-fancybox="images">
+            <figure>
+                <img src="images/main_img01.png" alt="" />
+            </figure>
+            <ul>
+                <li>캐릭터디자인</li>
+                <li>목적, 제목, 프로그램</li>
+            </ul>
+        </a>   
+    </div>
+    <div class="img_list">
+    </div><!-- .img_list end -->
+ </section><!-- .g_design end -->
+
+ <footer>
+     <h3>JANGSUHYUNG</h3>
+     <ul>
+         <li><a href="#">유투브채널 바로가기</a></li>
+         <li><a href="tel:010.7610.2154">010.7610.2154</a></li>
+         <li>tngud2154@gmail.com</li>
+     </ul>
+    <p><p>COPYRIGHT 2022. JANGSUHYUNG ALL RIGHTS RESERVED.
+        <br />본 사이트는 개인 포트폴리오 사이트로 제작되어 상업적 목적이 아닙니다. 
+        사용된 일부 이미지 및 폰트 등은 별도의 출처가 있음을 밝혀 드립니다.</p></p>
+ </footer>
+
+
